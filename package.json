@@ -1,0 +1,12 @@
+{
+  "name": "ai-video-editing-workspace",
+  "private": true,
+  "description": "Tooling for the AI video editing workspace",
+  "dependencies": {
+    "@remotion/cli": "^4.0.545",
+    "hyperframes": "^0.9.72",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "remotion": "^4.0.545"
+  }
+}

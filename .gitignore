@@ -1,0 +1,8 @@
+node_modules/
+.venv/
+__pycache__/
+# large media stays local
+raw-videos/*
+!raw-videos/README.md
+exports/*
+!exports/README.md

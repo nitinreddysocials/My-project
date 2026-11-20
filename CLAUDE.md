@@ -33,6 +33,21 @@ This folder is my workspace for AI-assisted video editing. Claude: read this fil
 - Don't delete anything without asking.
 - Keep the user's original filenames; name new files descriptively.
 
+## Installed tools (how to run them)
+
+Activate Python tools first: `. .venv/bin/activate`. Node tools are in `node_modules/` (`npm install` restores them; the Python venv is rebuilt with `python3 -m venv .venv && pip install yt-dlp openai-whisper`).
+
+| Tool | Use | Command |
+|---|---|---|
+| FFmpeg / ffprobe | cut, convert, mix audio | `ffmpeg ...` |
+| yt-dlp | download reference/inspiration videos | `yt-dlp -o "inspirations/%(title)s.%(ext)s" <url>` |
+| Whisper | transcripts + captions | `whisper clip.mp4 --model small --output_format srt` (use `--model tiny` for speed) |
+| Remotion | React-based video rendering | `npx remotion render <entry> <comp> out.mp4` |
+| Hyperframes | HTML-to-video rendering | `npx hyperframes init <name>` then `npx hyperframes render` |
+| Openverse | free SFX/music search + download | see `skills/find-audio.md` |
+
+Cloud-sandbox note: if a render can't find Chrome, set `PUPPETEER_EXECUTABLE_PATH=/opt/pw-browsers/chromium` (Remotion: `--browser-executable`). Only download content you have the rights to use.
+
 ## How I like my videos edited
 
 > TODO: fill this in. Claude should treat these as defaults and ask if anything here is empty.
