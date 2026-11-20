@@ -50,15 +50,15 @@ Cloud-sandbox note: if a render can't find Chrome, set `PUPPETEER_EXECUTABLE_PAT
 
 ## How I like my videos edited
 
-> TODO: fill this in. Claude should treat these as defaults and ask if anything here is empty.
+Defaults for every project. Override per project only when I say so. Anything not listed here: ask me.
 
-- **Platforms / formats:** (e.g. YouTube 16:9, Shorts/Reels 9:16)
-- **Pacing & cuts:** (e.g. tight jump cuts, remove silences > 0.4s)
-- **Captions:** (style, font, position, word-by-word?)
-- **Music:** (volume under voice, genres, ducking)
-- **Sound effects:** (how often, which kinds)
-- **Color / look:** 
-- **Transitions:** 
-- **Intro / outro:** 
-- **Typical length:** 
-- **Things to avoid:** 
+- **Platforms / formats:** I edit for YouTube (16:9), Shorts/Reels/TikTok (9:16), and Instagram feed (4:5 or 1:1), often repurposing one video for several. Build the master first, then reframe per platform, keeping the speaker and captions inside safe zones.
+- **Pacing & cuts:** Fast and punchy. Tight jump cuts, remove silences longer than ~0.3s, cut filler words and flubs, change the visual (cut, zoom, b-roll, overlay) every 2-4 seconds.
+- **Captions:** Bold, centered, word-by-word, with the spoken word highlighted. Use the brand font and colors. Generate from Whisper transcripts and proofread names and jargon.
+- **Music:** Always add a background track, ducked to about -20 dB under speech. Pick the mood to match the video. Prefer CC0 or properly credited tracks (`skills/find-audio.md`).
+- **Sound effects:** Use them frequently: whooshes on transitions, hits on text and graphic pops, subtle risers into key moments. Keep them short and mixed below the voice.
+- **Color / look:** Not set yet. Ask, or follow `brand-kit/` and `inspirations/`.
+- **Transitions:** Not set yet. Default to hard cuts, with quick whip or zoom transitions on topic changes.
+- **Intro / outro:** Not set yet. Use files from `brand-kit/` if present, otherwise skip.
+- **Typical length:** Not set yet. Ask per project.
+- **Things to avoid:** Not set yet. Until told otherwise: dead air, long static shots, captions that cover the face, music louder than the voice.
